@@ -108,7 +108,7 @@ function slow($arr){
   $char = str_split($arr);
   foreach($char as $an){
     echo $an;
-    usleep(100);
+    usleep(10000);
   }
 }
 
