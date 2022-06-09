@@ -201,12 +201,12 @@ $cnt=readline($red."\n[".$jsls."🙈🙈️".$read."]".$biru." JAWAB YES/NO ==> 
 echo "\n\n";
 
 if ($cnt == "YES") {
-
+   sleep(2);
    echo " YESSS BISA NGENTODD\n";
    $wh=readline(" KETIK [ YES ] UNTUK CHAT KE WA==> ");
    
 } else if($cnt == "NO"){
-
+   sleep(1);
    echo "ANJG DI KASIH ENAK KAGAK MAU";
 } 
 else {
